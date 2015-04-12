@@ -11,17 +11,24 @@ This role requires Ansible 1.4 or higher.
 Role Variables
 --------------
 
+| Name          | Default   | Description |
+|---------------|-----------|-------------|
+| hostname_name | localhost | Hostname    |
+
 Dependencies
 ------------
+
+None
 
 Example Playbook
 ----------------
 
-1) Configure hostname
-
-    - hosts: all
-      roles:
-         - { role: hostname }
+Configure hostname
+```
+- hosts: all
+  roles:
+    - { role: hostname, hostname_name: 'example1' }
+```
 
 License
 -------
