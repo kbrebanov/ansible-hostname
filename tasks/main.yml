@@ -14,5 +14,5 @@
   tags: hostname
 
 - name: Configure hostname
-  hostname: name={{ hostname }}
+  hostname: name={{ hostname_name }}
   tags: hostname
