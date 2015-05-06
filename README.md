@@ -1,6 +1,8 @@
 hostname
 ========
 
+[![Ansible Galaxy](https://img.shields.io/badge/galaxy-kbrebanov.hostname-660198.svg)](https://galaxy.ansible.com/list#/roles/3391)
+
 Configures hostname
 
 Requirements
