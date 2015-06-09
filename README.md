@@ -13,9 +13,9 @@ This role requires Ansible 1.4 or higher.
 Role Variables
 --------------
 
-| Name          | Default   | Description |
-|---------------|-----------|-------------|
-| hostname_name | localhost | Hostname    |
+| Name          | Default                | Description |
+|---------------|------------------------|-------------|
+| hostname_name | {{ ansible_hostname }} | Hostname    |
 
 Dependencies
 ------------
