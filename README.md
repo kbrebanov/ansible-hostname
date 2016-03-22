@@ -1,7 +1,7 @@
 hostname
 ========
 
-[![Ansible Role](https://img.shields.io/ansible/role/3391.svg)](https://galaxy.ansible.com/list#/roles/3391)
+[![Build Status](https://travis-ci.org/kbrebanov/ansible-hostname.svg?branch=master)](https://travis-ci.org/kbrebanov/ansible-hostname)
 
 Configures hostname
 
