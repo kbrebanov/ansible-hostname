@@ -26,10 +26,12 @@ Example Playbook
 ----------------
 
 Configure hostname
-```
+```yaml
 - hosts: all
+  vars:
+    hostname_name: example1
   roles:
-    - { role: hostname, hostname_name: 'example1' }
+    - role: kbrebanov.hostname
 ```
 
 License
